@@ -89,7 +89,7 @@
     },
     "verb": "post",
     "object": {
-	  "id":"https://ensembleio.herokuapp.com/images/activity/visite-suzy.png", 
+	  "id":"https://ensembleio.herokuapp.com/images/activity/visite-suzy.jpg", 
 	  "objectType": "photo"
     },
     "target": {
