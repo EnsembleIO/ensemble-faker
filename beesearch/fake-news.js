@@ -6,17 +6,17 @@ var definitions = require('../lib/definitions');
 //  SETUP
 // #######
 
-var newsFeedLength = 999;
+var newsFeedLength = 100000-1;
 
 
 console.log("Starting  generating news data !");
-var deviceFileNameCSV = 'fake-news.csv';
+//var deviceFileNameCSV = 'fake-news.csv';
 var deviceFileNameJSON = 'fake-news.json';
 
 var from = new Date(2014, 0, 1, 0, 0, 0, 0);
 var now = new Date(2014, 11, 31, 23, 59, 59, 999);
 
-fs.unlinkSync(deviceFileNameCSV);
+//fs.unlinkSync(deviceFileNameCSV);
 fs.unlinkSync(deviceFileNameJSON);
 
 var countNewsId = 100;
@@ -31,28 +31,27 @@ for (var i = countNewsId; i <= newsFeedLength; i++) {
     countNewsId++;
     var traceDate = Faker.Date.between(from, now);
 
-    trace.id = countNewsId;
-
-    trace.producerId = Faker.Helpers.replaceSymbolWithNumber("####-####-####-####");
-
     trace.published = traceDate;
 
     trace.actor = {};
-    trace.actor.id = "toto";
-    trace.actor.objectType = "monObj";
-    trace.actor.displayName = "monObj";
+    first_name = Faker.random.first_name();
+    trace.actor.id = "urn:ensemble:" + first_name;
+    trace.actor.objectType = "member";
+    trace.actor.displayName = first_name + "' profile'";
 
     trace.verbe = "add";
 
     trace.object = {};
-    trace.object.id = "tata";
-    trace.object.objectType = "monObj";
-    trace.object.displayName = "monObj";
+    first_name = Faker.random.first_name();
+    trace.object.id = "urn:ensemble:" + first_name;
+    trace.object.objectType = "member";
+    trace.object.displayName = first_name + "' profile'";
 
     trace.target = {};
-    trace.target.id = "tutu";
-    trace.target.objectType = "monObj";
-    trace.target.displayName = "monObj";
+    first_name = Faker.random.first_name();
+    trace.target.id = "urn:ensemble:" + first_name;
+    trace.target.objectType = "member";
+    trace.target.displayName = first_name + "' profile'";
 
 
     // var traceRow = '';
