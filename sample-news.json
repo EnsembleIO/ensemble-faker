@@ -1,0 +1,361 @@
+[
+  {
+  	"newsid" : "1",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "ensemble:assurancemaladie",
+      "objectType": "organization",
+      "displayName": "Assurence Maladie"
+    },
+    "verb": "add",
+    "object": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "owner",
+      "displayName": "Création du compte ensemble"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+  	"newsid" : "2",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    },
+    "verb": "add",
+    "object": {
+      "id": "urn:ensemble:member:jean",
+      "objectType": "admin",
+      "displayName": "Ajout de l'administrateur"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+  	"newsid" : "3",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:souhail",
+      "objectType": "member",
+      "displayName": "Souhail"
+    },
+    "verb": "add",
+    "object": {
+      "id": "urn:ensemble:member:souahil",
+      "objectType": "contributor",
+      "displayName": "Ajout d(un contributeur"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },  
+  {
+  	"newsid" : "4",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:suzy",
+      "objectType": "member",
+      "displayName": "Suzy"
+    },
+    "verb": "add",
+    "object": {
+      "id": "urn:ensemble:member:suzy",
+      "objectType": "contributor",
+      "displayName": "Ajout d(un contributeur"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+  	"newsid" : "5",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:suzy",
+      "objectType": "member",
+      "displayName": "Suzy"
+    },
+    "verb": "post",
+    "object": {
+	  "id":"https://ensembleio.herokuapp.com/images/activity/visite-suzy.png", 
+	  "objectType": "photo"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "6",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:jean",
+      "objectType": "member",
+      "displayName": "Jean"
+    },
+    "verb": "add",
+    "object": {
+      "id": "urn:ensemble:calendar:margaux",
+	  "objectType": "rendezvous",
+	  "displayName": "Votre agenda est créé"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "7",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:souhail",
+      "objectType": "member",
+      "displayName": "Souhail"
+    },
+    "verb": "post",
+    "object": {
+      "id": "urn:ensemble:calendar:margaux",
+	  "objectType": "rendezvous",
+	  "displayName": "Rendez vous CHU le 6 Avril à 15:00 "
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "8",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "ensemble:assurancemaladie",
+      "objectType": "organization",
+      "displayName": "Assurence Maladie"
+    },
+    "verb": "add",
+    "object": {
+      "id": "urn:ensemble:object",
+	  "objectType": "tensiometer",
+	  "displayName": "Votre tensiomètre a bien été ajouté "
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "9",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "ensemble:assurancemaladie",
+      "objectType": "organization",
+      "displayName": "Assurence Maladie"
+    },
+    "verb": "post",
+    "object": {
+      "id": "urn:ensemble:calendar:margaux",
+	  "objectType": "anniversary",
+	  "displayName": "Joyeux anniversaire !"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "10",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:alex",
+      "objectType": "member",
+      "displayName": "Alex"
+    },
+    "verb": "request",
+    "object": {
+      "id": "urn:ensemble:member:alex",
+      "objectType": "contributor",
+      "displayName": "Ajout d'un contributeur"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "11",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:lebreton",
+      "objectType": "doctor",
+      "displayName": "Docteur Le Breton"
+    },
+    "verb": "request",
+    "object": {
+      "id": "urn:ensemble:member:lebreton",
+      "objectType": "medical",
+      "displayName": "Ajout d'un docteur"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "12",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:lebreton",
+      "objectType": "doctor",
+      "displayName": "Docteur Le Breton"
+    },
+    "verb": "post",
+    "object": {
+      "id": "urn:ensemble:calendar:margaux",
+	  "objectType": "rendezvous",
+	  "displayName": "Rendez vous Docteur le 26 Avril à 15:00 "
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "13",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:sarah",
+      "objectType": "nurse",
+      "displayName": "Sarah"
+    },
+    "verb": "request",
+    "object": {
+      "id": "urn:ensemble:member:sarah",
+      "objectType": "medical",
+      "displayName": "Ajout d'une infirmière"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "14",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:sarah",
+      "objectType": "nurse",
+      "displayName": "Sarah"
+    },
+    "verb": "post",
+    "object": {
+      "id": "urn:ensemble:calendar:margaux",
+	  "objectType": "rendezvous",
+	  "displayName": "Rappel de piqûre tous les 3 jours "
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "16",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:lebreton",
+      "objectType": "doctor",
+      "displayName": "Docteur Le Breton"
+    },
+    "verb": "add",
+    "object": {
+      "id": "urn:ensemble:prescription:margaux",
+	  "objectType": "prescription",
+	  "displayName": "Visualiser les prescriptions médicales ici"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "17",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:lebreton",
+      "objectType": "doctor",
+      "displayName": "Docteur Le Breton"
+    },
+    "verb": "add",
+    "object": {
+      "id": "urn:ensemble:prescription:margaux",
+	  "objectType": "prescription",
+	  "displayName": " Visualiser les analyses médicales ici"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "18",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "ensemble:assurancemaladie",
+      "objectType": "organization",
+      "displayName": "Assurence Maladie"
+    },
+    "verb": "post",
+    "object": {
+      "id": "urn:ensemble:news:1",
+	  "objectType": "billing",
+	  "displayName": "Votre remboursement est arrivé sur votre compte. Cliquez ici !"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "19",
+    "published": "2014-12-17T12:45:00.000Z",
+    "actor": {
+      "id": "ensemble:assurancemaladie",
+      "objectType": "organization",
+      "displayName": "Assurence Maladie"
+    },
+    "verb": "post",
+    "object": {
+      "id": "urn:ensemble:news:2",
+	  "objectType": "medical",
+	  "displayName": "Vous avez + de 60 ans… vaccinez vous contre la grippe. Votre coupon de prise en charge est ici !"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  }
+]
