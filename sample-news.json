@@ -3,9 +3,9 @@
   	"newsid" : "1",
     "published": "2014-12-17T12:45:00.000Z",
     "actor": {
-      "id": "ensemble:assurancemaladie",
+      "id": "ensemble:ensemble",
       "objectType": "organization",
-      "displayName": "Assurence Maladie"
+      "displayName": "Ensemble"
     },
     "verb": "add",
     "object": {
@@ -142,9 +142,9 @@
     "newsid" : "8",
     "published": "2014-12-17T12:45:00.000Z",
     "actor": {
-      "id": "ensemble:assurancemaladie",
+      "id": "ensemble:ensemble",
       "objectType": "organization",
-      "displayName": "Assurence Maladie"
+      "displayName": "Ensemble"
     },
     "verb": "add",
     "object": {
@@ -162,9 +162,9 @@
     "newsid" : "9",
     "published": "2014-12-17T12:45:00.000Z",
     "actor": {
-      "id": "ensemble:assurancemaladie",
+      "id": "ensemble:ensemble",
       "objectType": "organization",
-      "displayName": "Assurence Maladie"
+      "displayName": "Ensemble"
     },
     "verb": "post",
     "object": {
@@ -322,9 +322,9 @@
     "newsid" : "18",
     "published": "2014-12-17T12:45:00.000Z",
     "actor": {
-      "id": "ensemble:assurancemaladie",
+      "id": "ensemble:Ensemble",
       "objectType": "organization",
-      "displayName": "Assurence Maladie"
+      "displayName": "Ensemble"
     },
     "verb": "post",
     "object": {
@@ -342,9 +342,9 @@
     "newsid" : "19",
     "published": "2014-12-17T12:45:00.000Z",
     "actor": {
-      "id": "ensemble:assurancemaladie",
+      "id": "ensemble:ensemble",
       "objectType": "organization",
-      "displayName": "Assurence Maladie"
+      "displayName": "Ensemble"
     },
     "verb": "post",
     "object": {
