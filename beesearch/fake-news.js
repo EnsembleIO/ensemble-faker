@@ -35,21 +35,21 @@ for (var i = countNewsId; i <= newsFeedLength; i++) {
 
     trace.actor = {};
     first_name = Faker.random.first_name();
-    trace.actor.id = "urn:ensemble:" + first_name;
+    trace.actor.id = "urn:ensemble:member:" + first_name;
     trace.actor.objectType = "member";
     trace.actor.displayName = first_name + "' profile'";
 
-    trace.verbe = "add";
+    trace.verb = "add";
 
     trace.object = {};
     first_name = Faker.random.first_name();
-    trace.object.id = "urn:ensemble:" + first_name;
-    trace.object.objectType = "member";
+    trace.object.id = "urn:ensemble:member:" + first_name;
+    trace.object.objectType = "contributor";
     trace.object.displayName = first_name + "' profile'";
 
     trace.target = {};
     first_name = Faker.random.first_name();
-    trace.target.id = "urn:ensemble:" + first_name;
+    trace.target.id = "urn:ensemble:member:" + first_name;
     trace.target.objectType = "member";
     trace.target.displayName = first_name + "' profile'";
 

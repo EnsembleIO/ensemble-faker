@@ -89,7 +89,7 @@
     },
     "verb": "post",
     "object": {
-	  "id":"https://ensembleio.herokuapp.com/images/activity/visite-suzy.jpg", 
+	  "id":"visite-suzy.jpg", 
 	  "objectType": "photo"
     },
     "target": {
@@ -340,6 +340,25 @@
   },
   {
     "newsid" : "19",
+    "published": "2014-12-31T12:55:00.000Z",
+    "actor": {
+      "id": "urn:ensemble:member:souhail",
+      "objectType": "member",
+      "displayName": "Souhail"
+    },
+    "verb": "post",
+    "object": {
+    "id":"visite-suzy.jpg", 
+    "objectType": "photo"
+    },
+    "target": {
+      "id": "urn:ensemble:member:margaux",
+      "objectType": "member",
+      "displayName": "Margaux"
+    }
+  },
+  {
+    "newsid" : "20",
     "published": "2014-12-31T13:45:00.000Z",
     "actor": {
       "id": "ensemble:ensemble",
