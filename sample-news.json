@@ -270,7 +270,7 @@
     "object": {
       "id": "urn:ensemble:calendar:margaux",
 	  "objectType": "rendezvous",
-	  "displayName": "Rappel de piqûre tous les 3 jours "
+	  "displayName": " piqûre tous les 3 jours "
     },
     "target": {
       "id": "urn:ensemble:member:margaux",
@@ -330,7 +330,7 @@
     "object": {
       "id": "urn:ensemble:news:1",
 	  "objectType": "billing",
-	  "displayName": "Votre remboursement est arrivé sur votre compte. Cliquez ici !"
+	  "displayName": "Un nouveau remboursement est arrivé sur votre compte. Cliquez ici pour accéder à votre compte Ameli"
     },
     "target": {
       "id": "urn:ensemble:member:margaux",
@@ -369,7 +369,7 @@
     "object": {
       "id": "urn:ensemble:news:2",
 	  "objectType": "medical",
-	  "displayName": "Vous avez + de 60 ans… vaccinez vous contre la grippe. Votre coupon de prise en charge est ici !"
+	  "displayName": "La grippe, ce n'est pas rien. Alors, je fais le vaccin ! pour vous, le vaccin est gratuit : Bon de prise en charge Grippe et Notice"
     },
     "target": {
       "id": "urn:ensemble:member:margaux",
